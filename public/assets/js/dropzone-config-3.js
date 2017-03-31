@@ -1,7 +1,7 @@
 var photo_counter = 0;
 Dropzone.options.realDropzone = {
 
-    uploadMultiple: true,
+    uploadMultiple: false,
     parallelUploads: 100,
     maxFilesize: 8,
     autoProcessQueue: false,
